@@ -14,7 +14,7 @@ A shell script for exporting a database dump from an [Ecosyste.ms](https://ecosy
 ./export.sh packages ecosystems-data
 ```
 
-## cron
+### cron
 
 Example to run on a monthly basis:
 
@@ -22,6 +22,12 @@ Example to run on a monthly basis:
 PATH=/bin:/usr/bin:/usr/local/bin
 0 0 1 * * deploy /home/deploy/export.sh
 ```
+
+## Dependencies
+
+- https://github.com/dokku/dokku
+- https://github.com/dokku/dokku-postgres
+- https://github.com/aws/aws-cli 
 
 ## Contribute
 
