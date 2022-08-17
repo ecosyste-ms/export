@@ -35,7 +35,7 @@ tar -czf $folder.tar.gz -C /tmp/ $path
 aws s3 cp $folder.tar.gz s3://$bucket_name/
 
 # trigger rake task in $service_name service to record export
-dokku run --env EXPORT_DATE=$date BUCKET_NAME=$bucket_name $service_name rake exports:record
+dokku run --env EXPORT_DATE=$date --env BUCKET_NAME=$bucket_name $service_name rake exports:record
 
 # delete folder
 rm -rf $folder
