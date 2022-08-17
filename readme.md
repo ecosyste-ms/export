@@ -4,11 +4,24 @@ A shell script for exporting a database dump from an [Ecosyste.ms](https://ecosy
 
 ## Usage
 
+```shell
 ./export.sh service_name bucket_name
+```
 
 ## Example
 
+```shell
 ./export.sh packages ecosystems-data
+```
+
+## cron
+
+Example to run on a monthly basis:
+
+```
+PATH=/bin:/usr/bin:/usr/local/bin
+0 0 1 * * deploy /home/deploy/export.sh
+```
 
 ## Contribute
 
