@@ -8,7 +8,7 @@ The database dump was produced using `pg_dump` and can be loaded back into a pos
 
 Ecosyste.ms Code is licensed under [GNU Affero License](LICENSE) © 2022 [Andrew Nesbitt](https://github.com/andrew).
 
-Ecosyste.ms Data, including this release, is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Ecosyste.ms Data, including this release, is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Contact
 
