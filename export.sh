@@ -23,10 +23,10 @@ mkdir $folder
 dokku postgres:export $database > $folder/$service_name-$date.sql
 
 # download license into folder
-wget -O $folder/license.txt https://raw.githubusercontent.com/ecosyste-ms/export/main/export-license.txt
+curl -o $folder/license.txt https://raw.githubusercontent.com/ecosyste-ms/export/main/export-license.txt
 
 # download readme into folder
-wget -O $folder/readme.md https://raw.githubusercontent.com/ecosyste-ms/export/main/export-readme.md
+curl -o $folder/readme.md https://raw.githubusercontent.com/ecosyste-ms/export/main/export-readme.md
 
 # compress folder 
 tar -czf $folder.tar.gz -C /tmp/ $path
