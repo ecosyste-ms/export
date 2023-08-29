@@ -6,13 +6,16 @@ The database dump was produced using `pg_dump` and can be loaded back into a pos
 
 ## Copyright
 
-Ecosyste.ms Code is licensed under [GNU Affero License](LICENSE) © 2022 [Andrew Nesbitt](https://github.com/andrew).
+Ecosyste.ms Code is licensed under [GNU Affero License](LICENSE) © 2023 [Andrew Nesbitt](https://github.com/andrew).
 
-Ecosyste.ms Data, including this release, is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Ecosyste.ms Data, including this release, is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Contact
 
 * Bug Tracker &mdash; https://github.com/ecosystems/support/issues
 * Documentation &mdash; https://ecosyste.ms/
+* Blog &mdash; https://blog.ecosyste.ms/
 * Email &mdash; support@ecosyste.ms
 * Twitter &mdash; https://twitter.com/ecosyste_ms
+* Mastodon &mdash; https://mastodon.social/@ecosystems
+* Open Collective &mdash; https://opencollective.com/ecosystems
